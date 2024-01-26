@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Kenny K
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          kennyk@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +1 (345) 676-4598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://media.istockphoto.com/id/1170398586/photo/trail-runner-bounds-along-mountain-meadow-in-the-morning.jpg?s=612x612&w=0&k=20&c=dhsWny_m6lp917IIYdJwhHWyNkopwJ6QbK0LKMfrt-A=" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Kenny <img src="https://i.pinimg.com/originals/f4/7e/00/f47e0079cc53fda3b4b3a7d6e59d5fdd.gif" width="60px"/>
+          </h1>
+          <p>
+            I am a person who doesn't know how to code, trying to learn how to code!
+            I'm from the midwest, and I moved to Chicago like 7 years ago. 
+            I am (clearly) not very good at coding, but I think with time I can learn, a little. 
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png"/>
+            <h6>Python</h6>
+            <p>0.5 years experience</p>
+          </div>  
+
+        <div class="skill">
+            <img src="https://t4.ftcdn.net/jpg/00/74/69/43/360_F_74694328_Cx0KEkfjipBYzDw2n1cU7Mt6Co80nC7q.jpg"/>
+            <h6>Baseball</h6>
+            <p>10 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"/>
+            <h6>React</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Paper</h3>
+            <ul>
+              <li>Chopped down a tree with an axe, watered it down, peeled off the layers, and dried into individual sheets of paper. Cut into 8x10 inch rectangles. Failed to achieve commercial viability.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Hello World</h3>
+            <ul>
+              <li>Developed a proprietary algorithm which enabled users to receive cryptic message from computer device. "Hello World!"</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Fetch</h3>
+            <ul>
+              <li>Threw a baseball around 35 yards for my golden doodle to fetch. He never returned.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendation" id="all_recommendation">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I once saw Kenny on the street.  
+          I didn't even realize it, he wasn't that remarkable. 
+          The only reason I know is because he had a loudspeaker saying: 
+          "I am Kenny. Haha. I am Kenny. Haha. I am Kenny."
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Kenny has been okay. 
+          He typically comes to work around 10:15am, give or take, responds to 2-3 emails, then grabs coffee. 
+          After that, he shuffles his way around the office distracting everyone. Overall, good guy.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Kenny during the initial phase of our paper making business. 
+          He was really good at cutting down trees, watering them down, and laying out the sheets. 
+          But he never did figure out how to make them into usable paper. I'd recommend him! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit Here!</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks. I hope you enjoyed reminiscing!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
